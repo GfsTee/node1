@@ -26,3 +26,4 @@ console.log(denise);
 
 console.log(signUp("Batman"));
 console.log(signUp("Superman"));
+console.log(signUp("Wonderwoman"));
