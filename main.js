@@ -1,6 +1,7 @@
 const finn = require('./data')
 const denise = require('./data2')
 const signUp = require('./signUp')
+const cowsay = require("cowsay");
 
 
 // console.log("Hallo from node.js");
@@ -27,3 +28,9 @@ console.log(denise);
 console.log(signUp("Batman"));
 console.log(signUp("Superman"));
 console.log(signUp("Wonderwoman"));
+
+console.log(cowsay.say({
+    text: "I'm a suuuuuuuuuuuuuuuuper",
+    e: "..",
+    T: "L ",
+}));
